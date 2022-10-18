@@ -98,24 +98,35 @@ body {
   letter-spacing: 0em;
   text-align: center;
   background-color: white;
-
   /* font-family: 'Rosario', sans-serif; */
 }
+
 /* ------------------------------------- */
 .wrapper {
   min-height: 100%;
   overflow: hidden;
 }
+
 /* ------Общий контейнер-------------------- */
 ._container {
   max-width: 1280px;
   padding: 0 20px;
   margin: 0 auto;
 }
+
+/* ------Общий блок тайтл с текстом---------------- */
+.description {
+  position: relative;
+  z-index: 1;
+}
+.description__title {
+}
+.description__text {
+}
+
 /* ----Шапка----------------------------------- */
 .header {
   width: 100%;
-  z-index: 50;
 }
 .header__container {
   display: flex;
@@ -158,11 +169,11 @@ body {
   margin: 0 0 0 30px;
 }
 
-.button__search {
+.header__button-search {
 }
-.button__bascket {
+.header__button-bascket {
 }
-.button__reg {
+.header__button-regestar {
   height: 40px;
   width: 160px;
   border-radius: 8px;
@@ -170,6 +181,7 @@ body {
   color: white;
 }
 
+/* ------------Адаптив------------------------------------- */
 @media (max-width: 900px) {
   .header__logo {
     display: none;
@@ -200,19 +212,74 @@ body {
     margin-bottom: 15px;
   }
 }
+
 /* -------Основной контент----------------- */
 .page {
     position: relative;
     min-height: 850px;
 }
-.page > img {
+
+.page__main-block {
+}
+.main-block {
+}
+.main-block__container {
+}
+
+.main-block__description {
+}
+
+.main-block__order {
+}
+.order {
+}
+.order__text {
+}
+.order__button {
+}
+.main-block__achievements {
+}
+.achievements {
+}
+.achievements__user {
+}
+.achievements__user-image {
+}
+.achievements__user-title {
+}
+.achievements__user-text {
+}
+.achievements__reviews {
+}
+.achievements__reviews-image {
+}
+.achievements__reviews-title {
+}
+.achievements__reviews-text {
+}
+.achievements__items {
+}
+.achievements__items-image {
+}
+.achievements__items-title {
+}
+.achievements__items-text {
+}
+
+.main-block__image-bg {
 position: absolute;
 width: 100%;
 height: 100%;
 top: 0;
-left: 0;
+left: 0px;
 object-fit: cover;
 }
+.main-block__image-leaf {
+  position: absolute;
+  top: -35px;
+  left: 40px;
+}
+
 /* -----Футер-------------------------------- */
 .footer {
 }
