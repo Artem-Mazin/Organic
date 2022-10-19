@@ -114,7 +114,7 @@ body {
 }
 
 /* ------Общий блок тайтл с текстом---------------- */
-.description {
+._description {
   position: relative;
   z-index: 1;
 }
@@ -167,10 +167,7 @@ body {
   color: #222222;
 }
 .header__logo {
-  margin-left: -50px;
-  /* position: absolute;
-  top: 0;
-  left: 50%; */
+  margin-left: -30px;
 }
 .header__buttons {
   display: flex;
@@ -194,12 +191,13 @@ body {
 
 /* -------Основной контент----------------- */
 .page {
-  position: relative;
-  height: 850px;
-  padding-top: 93px;
+ 
 }
 
 .page__main-block {
+  position: relative;
+  padding-top: 93px;
+  height: 850px;
 }
 
 .main-block__container {
@@ -319,7 +317,7 @@ body {
 .main-block__image-leaf {
   position: absolute;
   top: -35px;
-  left: 70px;
+  left: 0px;
   object-fit: contain;
 }
 
