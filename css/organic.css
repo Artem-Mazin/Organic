@@ -117,6 +117,7 @@ body {
 .header {
   width: 100%;
 }
+
 .header__container {
   display: flex;
   justify-content: space-between;
@@ -125,39 +126,44 @@ body {
   min-height: 149px;
 }
 
-.header__menu {
-}
+.header__menu {}
 
 .menu__list {
   display: flex;
   flex-wrap: wrap;
 }
+
 .menu__list li {
   margin: 0 40px 0 0;
 }
+
 .menu__list li:last-child {
   margin: 0 20px 0 0;
 }
-.menu__item {
-}
+
+.menu__item {}
+
 .menu__link {
   color: #222222;
 }
+
 .header__logo {
   margin-left: -30px;
 }
+
 .header__buttons {
   display: flex;
   flex-wrap: wrap;
 }
-.header__buttons > * {
+
+.header__buttons>* {
   margin: 0 0 0 30px;
 }
 
-.header__button-search {
-}
-.header__button-bascket {
-}
+.header__button-search {}
+
+.header__button-bascket {}
+
 .header__button-regestar {
   height: 40px;
   width: 160px;
@@ -167,9 +173,7 @@ body {
 }
 
 /* -------Основной контент----------------- */
-.page {
- 
-}
+.page {}
 
 .page__main-block {
   position: relative;
@@ -182,6 +186,7 @@ body {
   position: relative;
   z-index: 1;
 }
+
 .description__title {
   font-family: "Rosario", sans-serif;
   font-size: 70px;
@@ -189,6 +194,7 @@ body {
   line-height: 90px;
   margin-bottom: 20px;
 }
+
 .description__text {
   max-width: 637px;
   font-size: 18px;
@@ -214,14 +220,15 @@ body {
 .order__text {
   margin-right: 20px;
 }
+
 .order__button {
   background-color: #09a66d;
   height: 64px;
   width: 64px;
   border-radius: 50%;
 }
-.order__button-arrow {
-}
+
+.order__button-arrow {}
 
 /* --------Общий блок с достижениями------------------ */
 
@@ -232,7 +239,8 @@ body {
   flex-direction: column;
   align-items: flex-end;
 }
-.main-block__achievements > *:not(:last-child) {
+
+.main-block__achievements>*:not(:last-child) {
   margin-bottom: 30px;
 }
 
@@ -248,13 +256,15 @@ body {
 .achievements__image {
   margin-right: 24px;
 }
-.achievements__statistic {
-}
+
+.achievements__statistic {}
+
 .achievements__title {
   font-size: 48px;
   font-weight: 400;
   line-height: 48px;
 }
+
 .achievements__text {
   font-size: 18px;
   font-weight: 400;
@@ -269,6 +279,7 @@ body {
   left: 0px;
   object-fit: cover;
 }
+
 .main-block__image-leaf {
   position: absolute;
   top: -35px;
@@ -307,68 +318,34 @@ body {
   line-height: 30px;
   margin-bottom: 8px;
 }
-.service-text{
+
+.service-text {
   font-size: 14px;
   font-weight: 400;
   line-height: 20px;
 }
 
 .service__btn {
-width: 80px;
-height: 80px;
-margin-right: 24px;
-border-radius: 50%;
-background-color: #F3FBF8;
-display: flex;
+  width: 80px;
+  height: 80px;
+  margin-right: 24px;
+  border-radius: 50%;
+  background-color: #F3FBF8;
+  display: flex;
 }
+
 .service__image {
-object-fit: none;
+  object-fit: none;
 }
 
-.service__description {
-}
-.service__title {
+.advantages__arrow-next {}
 
-}
-.service__text {
+.advantages__image-courier {}
 
-}
-.service__online-order {
-}
-.online-order__btn {
-  
-}
-.online-order__image {
-}
-.online-order__description {
-}
-.online-order__title {
-}
-.online-order__text {
-}
-.service__delivery-time {
-}
-.delivery-time__btn {
-
-}
-.delivery-time__image {
-}
-.delivery-time__description {
-}
-.delivery-time__title {
-}
-.delivery-time__text {
-}
-.advantages__arrow-next {
-}
-.advantages__image-courier {
-}
-.advantages__image-vector {
-}
+.advantages__image-vector {}
 
 /* -----Футер-------------------------------- */
-.footer {
-}
+.footer {}
 
 /* ------------Адаптив------------------------------------- */
 @media (max-width: 900px) {
@@ -376,29 +353,37 @@ object-fit: none;
     display: none;
   }
 }
+
 @media (max-width: 800px) {
   .header__container {
     padding-top: 20px;
   }
-  .header__buttons > * {
+
+  .header__buttons>* {
     margin: 0 0 20px 20px;
   }
+
   .menu__list li {
     margin-bottom: 20px;
   }
+
   .main-block__image-bg {
     opacity: 0.7;
   }
+
   .main-block__image-leaf {
     opacity: 0.7;
   }
+
   .page {
     padding-top: 30px;
   }
+
   .main-block__order {
     margin-bottom: 15px;
   }
 }
+
 @media (max-width: 450px) {
   .menu__list {
     flex-direction: column;
@@ -406,15 +391,19 @@ object-fit: none;
     padding-bottom: 25px;
     font-size: 130%;
   }
+
   .header__buttons {
     justify-content: center;
   }
-  .header__buttons > * {
+
+  .header__buttons>* {
     margin-bottom: 15px;
   }
+
   .description__title {
     font-size: 50px;
   }
+
   .main-block__order {
     margin-bottom: 25px;
   }
