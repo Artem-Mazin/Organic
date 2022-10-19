@@ -113,48 +113,6 @@ body {
   margin: 0 auto;
 }
 
-/* ------Общий блок тайтл с текстом---------------- */
-._description {
-  position: relative;
-  z-index: 1;
-}
-.description__title {
-  font-family: "Rosario", sans-serif;
-  font-size: 70px;
-  font-weight: 700;
-  line-height: 90px;
-  margin-bottom: 20px;
-}
-.description__text {
-  max-width: 637px;
-  font-size: 18px;
-  font-weight: 400;
-  line-height: 30px;
-  letter-spacing: 0em;
-  margin-bottom: 40px;
-}
-
-/* --------Общий блок с сервисами----------------- */
-._service {
-  display: flex;
-  width: 500px;
-  height: 160px;
-  align-items: center;
-  justify-content: center;
-}
-
-._service-title {
-  font-size: 20px;
-  font-weight: 700;
-  line-height: 30px;
-  margin-bottom: 8px;
-}
-._service-text{
-  font-size: 14px;
-  font-weight: 400;
-  line-height: 20px;
-}
-
 /* ----Шапка----------------------------------- */
 .header {
   width: 100%;
@@ -169,8 +127,7 @@ body {
 
 .header__menu {
 }
-.menu {
-}
+
 .menu__list {
   display: flex;
   flex-wrap: wrap;
@@ -220,11 +177,27 @@ body {
   height: 850px;
 }
 
-.main-block__container {
+/* ------Общий блок тайтл с текстом---------------- */
+.description {
+  position: relative;
+  z-index: 1;
+}
+.description__title {
+  font-family: "Rosario", sans-serif;
+  font-size: 70px;
+  font-weight: 700;
+  line-height: 90px;
+  margin-bottom: 20px;
+}
+.description__text {
+  max-width: 637px;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0em;
+  margin-bottom: 40px;
 }
 
-.main-block__description {
-}
 .text-margin {
   margin: auto;
   margin-bottom: 40px;
@@ -249,6 +222,9 @@ body {
 }
 .order__button-arrow {
 }
+
+/* --------Общий блок с достижениями------------------ */
+
 .main-block__achievements {
   position: relative;
   z-index: 1;
@@ -260,7 +236,7 @@ body {
   margin-bottom: 30px;
 }
 
-.achievements__user {
+.achievements {
   width: 250px;
   height: 116px;
   background-color: white;
@@ -268,63 +244,18 @@ body {
   justify-content: center;
   align-items: center;
 }
-.achievements__user-image {
+
+.achievements__image {
   margin-right: 24px;
 }
-.achievements__user-statistic {
+.achievements__statistic {
 }
-.achievements__user-title {
+.achievements__title {
   font-size: 48px;
   font-weight: 400;
   line-height: 48px;
 }
-.achievements__user-text {
-  font-size: 18px;
-  font-weight: 400;
-  line-height: 30px;
-}
-.achievements__reviews {
-  width: 250px;
-  height: 116px;
-  background-color: white;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.achievements__reviews-image {
-  margin-right: 24px;
-}
-.achievements__reviews-statistic {
-}
-.achievements__reviews-title {
-  font-size: 48px;
-  font-weight: 400;
-  line-height: 48px;
-}
-.achievements__reviews-text {
-  font-size: 18px;
-  font-weight: 400;
-  line-height: 30px;
-}
-.achievements__items {
-  width: 250px;
-  height: 116px;
-  background-color: white;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.achievements__items-image {
-  margin-right: 24px;
-}
-.achievements__items-statistic {
-}
-.achievements__items-title {
-  font-size: 48px;
-  font-weight: 400;
-  line-height: 48px;
-}
-.achievements__items-text {
+.achievements__text {
   font-size: 18px;
   font-weight: 400;
   line-height: 30px;
@@ -351,24 +282,38 @@ body {
   padding-top: 141px;
   height: 1065px;
 }
-.advantages {
-}
-.advantages__container {
-}
+
 .advantages__body {
   text-align: left;
-}
-.advantages__description {
 }
 
 .advantages__services {
   display: flex;
   flex-direction: column;
 }
-.service__faster-delivery {
 
+/* --------Общий блок с сервисами----------------- */
+.service {
+  display: flex;
+  width: 500px;
+  height: 160px;
+  align-items: center;
+  justify-content: center;
 }
-.faster-delivery__btn {
+
+.service-title {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 30px;
+  margin-bottom: 8px;
+}
+.service-text{
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+.service__btn {
 width: 80px;
 height: 80px;
 margin-right: 24px;
@@ -376,15 +321,16 @@ border-radius: 50%;
 background-color: #F3FBF8;
 display: flex;
 }
-.faster-delivery__image {
+.service__image {
 object-fit: none;
 }
-.faster-delivery__description {
+
+.service__description {
 }
-.faster-delivery__title {
+.service__title {
 
 }
-.faster-delivery__text {
+.service__text {
 
 }
 .service__online-order {
