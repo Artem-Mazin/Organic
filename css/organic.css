@@ -131,8 +131,28 @@ body {
   font-weight: 400;
   line-height: 30px;
   letter-spacing: 0em;
-  margin: auto;
   margin-bottom: 40px;
+}
+
+/* --------Общий блок с сервисами----------------- */
+._service {
+  display: flex;
+  width: 500px;
+  height: 160px;
+  align-items: center;
+  justify-content: center;
+}
+
+._service-title {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 30px;
+  margin-bottom: 8px;
+}
+._service-text{
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
 }
 
 /* ----Шапка----------------------------------- */
@@ -204,6 +224,10 @@ body {
 }
 
 .main-block__description {
+}
+.text-margin {
+  margin: auto;
+  margin-bottom: 40px;
 }
 
 .main-block__order {
@@ -319,6 +343,81 @@ body {
   top: -35px;
   left: 0px;
   object-fit: contain;
+}
+
+/* -----------Второй сектор---------------------- */
+.page__advantages {
+  position: relative;
+  padding-top: 141px;
+  height: 1065px;
+}
+.advantages {
+}
+.advantages__container {
+}
+.advantages__body {
+  text-align: left;
+}
+.advantages__description {
+}
+
+.advantages__services {
+  display: flex;
+  flex-direction: column;
+}
+.service__faster-delivery {
+
+}
+.faster-delivery__btn {
+width: 80px;
+height: 80px;
+margin-right: 24px;
+border-radius: 50%;
+background-color: #F3FBF8;
+display: flex;
+}
+.faster-delivery__image {
+object-fit: none;
+}
+.faster-delivery__description {
+}
+.faster-delivery__title {
+
+}
+.faster-delivery__text {
+
+}
+.service__online-order {
+}
+.online-order__btn {
+  
+}
+.online-order__image {
+}
+.online-order__description {
+}
+.online-order__title {
+}
+.online-order__text {
+}
+.service__delivery-time {
+}
+.delivery-time__btn {
+
+}
+.delivery-time__image {
+}
+.delivery-time__description {
+}
+.delivery-time__title {
+}
+.delivery-time__text {
+}
+.advantages__arrow-next {
+}
+.advantages__image-courier {
+}
+.advantages__image-vector {
 }
 
 /* -----Футер-------------------------------- */
