@@ -374,7 +374,7 @@ body {
   display: flex;
   position: relative;
   padding-top: 90px;
-  height: 832px;
+  min-height: 832px;
 }
 
 .fruits {
@@ -396,6 +396,56 @@ body {
   left: 876px;
 }
 
+/* --------------Четвертый блок----------------- */
+.page__opinion {
+}
+.opinion__body {
+  padding-top: 96px;
+  min-height: 541px;
+  text-align: left;
+  position: relative;
+  display: flex;
+}
+.opinion__content {
+}
+.opinion__description {
+}
+.opinion__text {
+  max-width: 590px;
+}
+.opinion__elements {
+position: relative;
+display: flex;
+object-fit: none;
+max-width: 466px;
+}
+.opinion__name {
+font-size: 30px;
+font-weight: 500;
+line-height: 36px;
+  margin-bottom: 20px;
+}
+.opinion__stars {
+}
+.opinion__buttons {
+position: absolute;
+right: 0;
+top: -20px;
+}
+.opinion__button_left {
+  margin-right: 26px;
+}
+
+.opinion__button_right {
+
+}
+
+.opinion__image {
+  width: 500px;
+  height: 500px;
+  margin-top: 40px;
+}
+
 /* -----Футер-------------------------------- */
 .footer {
 }
@@ -413,6 +463,9 @@ body {
 @media (max-width: 950px) {
   .header__logo {
     display: none;
+  }
+  .opinion__body {
+    flex-direction: column;
   }
 }
 
@@ -472,5 +525,11 @@ body {
   .service {
     justify-content: left;
     width: 320px;
+  }
+  .explor__content {
+    padding-left: 0;
+  }
+  .opinion__image {
+   margin-left: -70px;
   }
 }
