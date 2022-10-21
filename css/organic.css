@@ -126,7 +126,8 @@ body {
   min-height: 149px;
 }
 
-.header__menu {}
+.header__menu {
+}
 
 .menu__list {
   display: flex;
@@ -141,7 +142,8 @@ body {
   margin: 0 20px 0 0;
 }
 
-.menu__item {}
+.menu__item {
+}
 
 .menu__link {
   color: #222222;
@@ -156,13 +158,15 @@ body {
   flex-wrap: wrap;
 }
 
-.header__buttons>* {
+.header__buttons > * {
   margin: 0 0 0 30px;
 }
 
-.header__button-search {}
+.header__button-search {
+}
 
-.header__button-bascket {}
+.header__button-bascket {
+}
 
 .header__button-regestar {
   height: 40px;
@@ -173,7 +177,8 @@ body {
 }
 
 /* -------Основной контент----------------- */
-.page {}
+.page {
+}
 
 .page__main-block {
   position: relative;
@@ -229,7 +234,8 @@ body {
   border-radius: 50%;
 }
 
-.order__button-arrow {}
+.order__button-arrow {
+}
 
 /* --------Общий блок с достижениями------------------ */
 
@@ -241,7 +247,7 @@ body {
   align-items: flex-end;
 }
 
-.main-block__achievements>*:not(:last-child) {
+.main-block__achievements > *:not(:last-child) {
   margin-bottom: 30px;
 }
 
@@ -258,7 +264,8 @@ body {
   margin-right: 24px;
 }
 
-.achievements__statistic {}
+.achievements__statistic {
+}
 
 .achievements__title {
   font-size: 48px;
@@ -332,7 +339,7 @@ body {
   height: 80px;
   margin-right: 24px;
   border-radius: 50%;
-  background-color: #F3FBF8;
+  background-color: #f3fbf8;
   display: flex;
 }
 
@@ -372,29 +379,34 @@ body {
 
 .fruits {
   background-color: rgba(9, 166, 109, 0.05);
-  height: 600px;
-  width: 600px;
+  max-width: 600px;
+ max-height: 600px;
+  object-fit: none;
 }
 .explor__content {
-text-align: left;
-padding: 30px 15px 0 50px;
+  text-align: left;
+  padding: 30px 15px 0 50px;
 }
 .explor__order {
- justify-content: left;
+  justify-content: left;
 }
 .explor__leaf {
   position: absolute;
-bottom: 0;
-left: 876px;
+  bottom: 0;
+  left: 876px;
 }
 
 /* -----Футер-------------------------------- */
-.footer {}
+.footer {
+}
 
 /* ------------Адаптив------------------------------------- */
 @media (max-width: 1300px) {
   .advantages__image-courier {
     display: none;
+  }
+  .explor__body {
+    flex-direction: column;
   }
 }
 
@@ -409,7 +421,7 @@ left: 876px;
     padding-top: 20px;
   }
 
-  .header__buttons>* {
+  .header__buttons > * {
     margin: 0 0 20px 20px;
   }
 
@@ -446,7 +458,7 @@ left: 876px;
     justify-content: center;
   }
 
-  .header__buttons>* {
+  .header__buttons > * {
     margin-bottom: 15px;
   }
 
