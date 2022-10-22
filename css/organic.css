@@ -126,8 +126,7 @@ body {
   min-height: 149px;
 }
 
-.header__menu {
-}
+.header__menu {}
 
 .menu__list {
   display: flex;
@@ -142,8 +141,7 @@ body {
   margin: 0 20px 0 0;
 }
 
-.menu__item {
-}
+.menu__item {}
 
 .menu__link {
   color: #222222;
@@ -158,15 +156,13 @@ body {
   flex-wrap: wrap;
 }
 
-.header__buttons > * {
+.header__buttons>* {
   margin: 0 0 0 30px;
 }
 
-.header__button-search {
-}
+.header__button-search {}
 
-.header__button-bascket {
-}
+.header__button-bascket {}
 
 .header__button-regestar {
   height: 40px;
@@ -177,8 +173,7 @@ body {
 }
 
 /* -------Основной контент----------------- */
-.page {
-}
+.page {}
 
 .page__main-block {
   position: relative;
@@ -234,8 +229,7 @@ body {
   border-radius: 50%;
 }
 
-.order__button-arrow {
-}
+.order__button-arrow {}
 
 /* --------Общий блок с достижениями------------------ */
 
@@ -247,7 +241,7 @@ body {
   align-items: flex-end;
 }
 
-.main-block__achievements > *:not(:last-child) {
+.main-block__achievements>*:not(:last-child) {
   margin-bottom: 30px;
 }
 
@@ -264,8 +258,7 @@ body {
   margin-right: 24px;
 }
 
-.achievements__statistic {
-}
+.achievements__statistic {}
 
 .achievements__title {
   font-size: 48px;
@@ -380,16 +373,19 @@ body {
 .fruits {
   background-color: rgba(9, 166, 109, 0.05);
   max-width: 600px;
- max-height: 600px;
+  max-height: 600px;
   object-fit: none;
 }
+
 .explor__content {
   text-align: left;
   padding: 30px 15px 0 50px;
 }
+
 .explor__order {
   justify-content: left;
 }
+
 .explor__leaf {
   position: absolute;
   bottom: 0;
@@ -397,8 +393,8 @@ body {
 }
 
 /* --------------Четвертый блок----------------- */
-.page__opinion {
-}
+.page__opinion {}
+
 .opinion__body {
   padding-top: 96px;
   min-height: 541px;
@@ -406,55 +402,112 @@ body {
   position: relative;
   display: flex;
 }
-.opinion__content {
-}
-.opinion__description {
-}
+
+.opinion__content {}
+
+.opinion__description {}
+
 .opinion__text {
   max-width: 590px;
 }
+
 .opinion__elements {
-position: relative;
-display: flex;
-object-fit: none;
-max-width: 466px;
+  position: relative;
+  display: flex;
+  object-fit: none;
+  max-width: 466px;
 }
+
 .opinion__name {
-font-size: 30px;
-font-weight: 500;
-line-height: 36px;
-  margin-bottom: 20px;
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 36px;
+  margin-bottom: 18px;
 }
-.opinion__stars {
-}
+
+.opinion__stars {}
+
 .opinion__buttons {
-position: absolute;
-right: 0;
-top: -20px;
+  position: absolute;
+  right: 0;
+  top: -20px;
 }
+
 .opinion__button_left {
   margin-right: 26px;
 }
 
-.opinion__button_right {
-
-}
+.opinion__button_right {}
 
 .opinion__image {
   width: 500px;
   height: 500px;
-  margin-top: 40px;
+  margin-top: 41px;
 }
 
-/* -----Футер-------------------------------- */
-.footer {
+/* ----------Пятый блок--------------------- */
+.page__order {}
+
+.order__container {}
+
+._container {}
+
+.order__body {
+  margin-top: -20px;
+  min-height: 786px;
+  padding: 150px 0 140px 100px;
+  text-align: left;
+  position: relative;
+  display: flex;
+
 }
+
+.order__image {
+  margin-right: 113px;
+  object-fit: none;
+}
+
+.order__description {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.order-text {
+  max-width: 574px;
+}
+
+.order__link {
+  text-align: center;
+  width: 170px;
+  padding: 6px 0;
+  background-color: rgba(243, 251, 248, 1);
+  border-radius: 50px;
+  color: rgba(51, 51, 51, 1);
+
+}
+
+.description__title {}
+
+.description__text {}
+
+.order__download {}
+
+.order__app {
+  margin-right: 24px;
+}
+
+.order__google {}
+
+/* -----Футер-------------------------------- */
+.footer {}
 
 /* ------------Адаптив------------------------------------- */
 @media (max-width: 1300px) {
   .advantages__image-courier {
     display: none;
   }
+
   .explor__body {
     flex-direction: column;
   }
@@ -464,8 +517,18 @@ top: -20px;
   .header__logo {
     display: none;
   }
+
   .opinion__body {
     flex-direction: column;
+  }
+  .order__image {
+    display: none;
+  }
+  .order__description {
+    margin-left: -95px;
+  }
+  .explor__description {
+    margin-left: -50px;
   }
 }
 
@@ -474,7 +537,7 @@ top: -20px;
     padding-top: 20px;
   }
 
-  .header__buttons > * {
+  .header__buttons>* {
     margin: 0 0 20px 20px;
   }
 
@@ -511,7 +574,7 @@ top: -20px;
     justify-content: center;
   }
 
-  .header__buttons > * {
+  .header__buttons>* {
     margin-bottom: 15px;
   }
 
@@ -522,14 +585,17 @@ top: -20px;
   .main-block__order {
     margin-bottom: 25px;
   }
+
   .service {
     justify-content: left;
     width: 320px;
   }
+
   .explor__content {
     padding-left: 0;
   }
+
   .opinion__image {
-   margin-left: -70px;
+    margin-left: -70px;
   }
 }
