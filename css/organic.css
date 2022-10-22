@@ -292,7 +292,7 @@ body {
 .page__advantages {
   position: relative;
   padding-top: 141px;
-  height: 1065px;
+  min-height: 1065px;
 }
 
 .advantages__body {
@@ -453,9 +453,7 @@ body {
 ._container {}
 
 .order__body {
-  margin-top: -20px;
-  min-height: 786px;
-  padding: 150px 0 140px 100px;
+  padding: 150px 0 0 100px;
   text-align: left;
   position: relative;
   display: flex;
@@ -500,7 +498,63 @@ body {
 .order__google {}
 
 /* -----Футер-------------------------------- */
-.footer {}
+.footer {
+}
+.footer__container {
+}
+.footer__body {
+  padding-top: 207px;
+  min-height: 575px;
+  display: flex;
+}
+.footer__content {
+  min-width: 345px;
+  text-align: left;
+}
+.footer__image {
+  margin-bottom: 30px;
+}
+.footer__text {
+font-size: 18px;
+font-weight: 400;
+line-height: 30px;
+}
+.footer__menu {
+  display: flex;
+  padding-left: 160px;
+  padding-top: 45px;
+}
+.footer__column {
+  min-width: 260px;
+  text-align: left;
+}
+.footer__title {
+font-size: 24px;
+font-weight: 500;
+line-height: 31px;
+  margin-bottom: 40px;
+  color: rgba(34, 34, 34, 1);
+
+}
+.footer__list {
+}
+.footer__item {
+font-size: 18px;
+font-weight: 400;
+line-height: 23px;
+  margin-bottom: 30px;
+}
+.footer__social {
+}
+.footer__social > * {
+  margin-right: 50px;
+}
+.footer__facebook {
+}
+.footer__twitter {
+}
+.footer__instagram {
+}
 
 /* ------------Адаптив------------------------------------- */
 @media (max-width: 1300px) {
@@ -511,15 +565,30 @@ body {
   .explor__body {
     flex-direction: column;
   }
+  .footer__body {
+    flex-direction: column;
+    padding-top: 0;
+  }
+  .footer__menu {
+    padding-left: 0;
+  }
 }
 
 @media (max-width: 950px) {
   .header__logo {
     display: none;
   }
+  .page__advantages {
+    min-height: 0;
+  }
 
   .opinion__body {
     flex-direction: column;
+  }
+  .order__body {
+    min-height: 0;
+    padding-top: 50px;
+    padding-bottom: 50px;
   }
   .order__image {
     display: none;
@@ -529,6 +598,9 @@ body {
   }
   .explor__description {
     margin-left: -50px;
+  }
+  .footer__body {
+    margin-bottom: 80px;
   }
 }
 
@@ -590,6 +662,9 @@ body {
     justify-content: left;
     width: 320px;
   }
+  .advantages__arrow-next {
+    left: 200px;
+  }
 
   .explor__content {
     padding-left: 0;
@@ -597,5 +672,12 @@ body {
 
   .opinion__image {
     margin-left: -70px;
+  }
+
+  .footer__menu {
+    flex-direction: column;
+  }
+  .footer__column {
+    margin-bottom: 15px;
   }
 }
