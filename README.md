@@ -1,2 +1,2 @@
-# Organic - это простая вёрстка, без JS. Выполнил перед стартом обучения в Яндекс.Практикум
+# Organic Fruit & Vegetables
 Посмотреть проект https://artem-mazin.github.io/Organic/
