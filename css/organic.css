@@ -126,8 +126,7 @@ body {
   min-height: 149px;
 }
 
-.header__menu {
-}
+.header__menu {}
 
 .menu__list {
   display: flex;
@@ -142,8 +141,7 @@ body {
   margin: 0 20px 0 0;
 }
 
-.menu__item {
-}
+.menu__item {}
 
 .menu__link {
   color: #222222;
@@ -158,15 +156,13 @@ body {
   flex-wrap: wrap;
 }
 
-.header__buttons > * {
+.header__buttons>* {
   margin: 0 0 0 30px;
 }
 
-.header__button-search {
-}
+.header__button-search {}
 
-.header__button-bascket {
-}
+.header__button-bascket {}
 
 .header__button-regestar {
   height: 40px;
@@ -177,8 +173,7 @@ body {
 }
 
 /* -------Основной контент----------------- */
-.page {
-}
+.page {}
 
 .page__main-block {
   position: relative;
@@ -234,8 +229,7 @@ body {
   border-radius: 50%;
 }
 
-.order__button-arrow {
-}
+.order__button-arrow {}
 
 /* --------Общий блок с достижениями------------------ */
 
@@ -247,7 +241,7 @@ body {
   align-items: flex-end;
 }
 
-.main-block__achievements > *:not(:last-child) {
+.main-block__achievements>*:not(:last-child) {
   margin-bottom: 30px;
 }
 
@@ -264,8 +258,7 @@ body {
   margin-right: 24px;
 }
 
-.achievements__statistic {
-}
+.achievements__statistic {}
 
 .achievements__title {
   font-size: 48px;
@@ -299,7 +292,7 @@ body {
 .page__advantages {
   position: relative;
   padding-top: 141px;
-  height: 1065px;
+  min-height: 1065px;
 }
 
 .advantages__body {
@@ -374,30 +367,193 @@ body {
   display: flex;
   position: relative;
   padding-top: 90px;
-  height: 832px;
+  min-height: 832px;
 }
 
 .fruits {
   background-color: rgba(9, 166, 109, 0.05);
   max-width: 600px;
- max-height: 600px;
+  max-height: 600px;
   object-fit: none;
 }
+
 .explor__content {
   text-align: left;
   padding: 30px 15px 0 50px;
 }
+
 .explor__order {
   justify-content: left;
 }
+
 .explor__leaf {
   position: absolute;
   bottom: 0;
   left: 876px;
 }
 
+/* --------------Четвертый блок----------------- */
+.page__opinion {}
+
+.opinion__body {
+  padding-top: 96px;
+  min-height: 541px;
+  text-align: left;
+  position: relative;
+  display: flex;
+}
+
+.opinion__content {}
+
+.opinion__description {}
+
+.opinion__text {
+  max-width: 590px;
+}
+
+.opinion__elements {
+  position: relative;
+  display: flex;
+  object-fit: none;
+  max-width: 466px;
+}
+
+.opinion__name {
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 36px;
+  margin-bottom: 18px;
+}
+
+.opinion__stars {}
+
+.opinion__buttons {
+  position: absolute;
+  right: 0;
+  top: -20px;
+}
+
+.opinion__button_left {
+  margin-right: 26px;
+}
+
+.opinion__button_right {}
+
+.opinion__image {
+  width: 500px;
+  height: 500px;
+  margin-top: 41px;
+}
+
+/* ----------Пятый блок--------------------- */
+.page__order {}
+
+.order__container {}
+
+._container {}
+
+.order__body {
+  padding: 150px 0 0 100px;
+  text-align: left;
+  position: relative;
+  display: flex;
+
+}
+
+.order__image {
+  margin-right: 113px;
+  object-fit: none;
+}
+
+.order__description {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.order-text {
+  max-width: 574px;
+}
+
+.order__link {
+  text-align: center;
+  width: 170px;
+  padding: 6px 0;
+  background-color: rgba(243, 251, 248, 1);
+  border-radius: 50px;
+  color: rgba(51, 51, 51, 1);
+
+}
+
+.description__title {}
+
+.description__text {}
+
+.order__download {}
+
+.order__app {
+  margin-right: 24px;
+}
+
+.order__google {}
+
 /* -----Футер-------------------------------- */
 .footer {
+}
+.footer__container {
+}
+.footer__body {
+  padding-top: 207px;
+  min-height: 575px;
+  display: flex;
+}
+.footer__content {
+  min-width: 345px;
+  text-align: left;
+}
+.footer__image {
+  margin-bottom: 30px;
+}
+.footer__text {
+font-size: 18px;
+font-weight: 400;
+line-height: 30px;
+}
+.footer__menu {
+  display: flex;
+  padding-left: 160px;
+  padding-top: 45px;
+}
+.footer__column {
+  min-width: 260px;
+  text-align: left;
+}
+.footer__title {
+font-size: 24px;
+font-weight: 500;
+line-height: 31px;
+  margin-bottom: 40px;
+  color: rgba(34, 34, 34, 1);
+
+}
+.footer__list {
+}
+.footer__item {
+font-size: 18px;
+font-weight: 400;
+line-height: 23px;
+  margin-bottom: 30px;
+}
+.footer__social {
+}
+.footer__social > * {
+  margin-right: 50px;
+}
+.footer__facebook {
+}
+.footer__twitter {
+}
+.footer__instagram {
 }
 
 /* ------------Адаптив------------------------------------- */
@@ -405,14 +561,46 @@ body {
   .advantages__image-courier {
     display: none;
   }
+
   .explor__body {
     flex-direction: column;
+  }
+  .footer__body {
+    flex-direction: column;
+    padding-top: 0;
+  }
+  .footer__menu {
+    padding-left: 0;
   }
 }
 
 @media (max-width: 950px) {
   .header__logo {
     display: none;
+  }
+  .page__advantages {
+    min-height: 0;
+  }
+
+  .opinion__body {
+    flex-direction: column;
+  }
+  .order__body {
+    min-height: 0;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  .order__image {
+    display: none;
+  }
+  .order__description {
+    margin-left: -95px;
+  }
+  .explor__description {
+    margin-left: -50px;
+  }
+  .footer__body {
+    margin-bottom: 80px;
   }
 }
 
@@ -421,7 +609,7 @@ body {
     padding-top: 20px;
   }
 
-  .header__buttons > * {
+  .header__buttons>* {
     margin: 0 0 20px 20px;
   }
 
@@ -458,7 +646,7 @@ body {
     justify-content: center;
   }
 
-  .header__buttons > * {
+  .header__buttons>* {
     margin-bottom: 15px;
   }
 
@@ -469,8 +657,27 @@ body {
   .main-block__order {
     margin-bottom: 25px;
   }
+
   .service {
     justify-content: left;
     width: 320px;
+  }
+  .advantages__arrow-next {
+    left: 200px;
+  }
+
+  .explor__content {
+    padding-left: 0;
+  }
+
+  .opinion__image {
+    margin-left: -70px;
+  }
+
+  .footer__menu {
+    flex-direction: column;
+  }
+  .footer__column {
+    margin-bottom: 15px;
   }
 }
